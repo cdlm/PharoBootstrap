@@ -17,7 +17,7 @@ Just download this repository and load the baseline in a new image. The easiest 
 $ wget -O - get.pharo.org/50+vm | bash
 $ ./pharo Pharo.image eval "
 Metacello new 
-	baseline: 'PharoBootstrapProcess';
+	baseline: 'BootstrapProcess';
 	repository: 'filetree://.';
 	load.
 
